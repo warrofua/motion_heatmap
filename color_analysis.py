@@ -67,6 +67,6 @@ class HeatmapGenerator:
         heatmap_processed = heatmap_opened
 
         # Convert to colored heatmap if desired
-        heatmap_colored = cv2.applyColorMap(heatmap_processed, cv2.COLORMAP_TURBO)
+        #heatmap_colored = cv2.applyColorMap(heatmap_processed, cv2.COLORMAP_TURBO)
 
         return heatmap_colored
